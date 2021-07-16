@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/pagerFragment">
+    <fragment
+        android:id="@+id/pagerFragment"
+        android:name="com.example.mytasklist.viewpager.ViewPagerFragment"
+        android:label="PagerFragment" >
+        <argument
+            android:name="tabPosition"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_pagerFragment_to_addDialogFragment"
+            app:destination="@id/addDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDialogFragment"
+        android:name="com.example.mytasklist.add.AddDialogFragment"
+        android:label="AddDialogFragment" >
+        <argument
+            android:name="tabPosition"
+            app:argType="integer" />
+    </fragment>
+</navigation>

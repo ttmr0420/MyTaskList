@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyTaskList</string>
+    <string name="task_name">タスク名</string>
+    <string name="task_detail">タスク詳細</string>
+    <string name="task_save_to">保存先</string>
+    <string name="tab_1">TAB 1</string>
+    <string name="tab_2">TAB 2</string>
+    <string name="tab_3">TAB 3</string>
+    <string name="save_string">保存</string>
+    <string name="cancel_string">キャンセル</string>
+    <string name="add_task_string">タスクを追加</string>
+    <string name="change_theme_string">Change Color Theme</string>
+    <string name="select_theme_string">Select Color Theme</string>
+    <string name="light_theme_string">ライトモード</string>
+    <string name="night_theme_string">ダークモード</string>
+    <string name="default_theme_string">システムのデフォルト</string>
+    <string name="add_string">追加</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>
